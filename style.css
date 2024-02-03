@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,200;1,300;1,400&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: hsl(0, 0%, 8%);
+    max-height: 100vh;
+    font-family: 'Inter', sans-serif;
+}
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 12%);
+    max-width: 360px;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+.hero{
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.hero img{
+    border-radius: 100%;
+    width: 70px;
+}
+.user-info .user-name{
+    text-align: center;
+    font-weight: 700;
+    color: hsl(0, 0%, 100%);
+    font-size: 26px;
+    padding: 5px;
+}
+.user-info .user-address{
+    text-align: center;
+    font-weight: 600;
+    color: hsl(75, 94%, 57%);
+    font-size: 14px;
+    padding-bottom: 20px;
+}
+.text-paragraph{
+    text-align: center;
+    font-size: 14px;
+    color: hsl(0, 15%, 91%);
+    padding-bottom: 20px;
+}
+.social{
+    padding: 5px;
+    text-align: center;
+}
+.github-btn{
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 10px;
+    transition: .3 ease-in-out;
+    
+}
+.github-btn:hover{
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+.frontendmentor-btn{
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.frontendmentor-btn:hover{
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+.linkedin-btn{
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.linkedin-btn:hover{
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+.twitter-btn{
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.twitter-btn:hover{
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+.instagram-btn{
+    display: block;
+    padding: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+    border-radius: 7px;
+    margin-bottom: 10px;
+}
+.instagram-btn:hover{
+    font-weight: 600;
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 12%);
+}
+@media only screen and (max-width: 425px) {
+    .container{
+        width: 90%;
+        padding: 20px;
+    }
+    .hero{
+        padding: 7px;
+    }
+    .hero img{
+        width: 90px;
+    }
+    .user-info .user-name{
+        font-size: 24px;
+    }
+    .github-btn {
+        padding: 15px;
+    }
+    .frontendmentor-btn {
+        padding: 15px;
+    }
+    .linkedin-btn {
+        padding: 15px;
+    }
+    .twitter-btn {
+        padding: 15px;
+    }
+    .instagram-btn {
+        padding: 15px;
+    }
+}
